@@ -1,0 +1,125 @@
+.menu{
+    display: flex;
+    align-items: center;
+    &__list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0px 50px;
+    }
+    &__btn{
+       width: 37px;
+       height: 37px;
+       display: flex;
+       justify-content: flex-end;
+       align-items: center;
+       position: relative;
+       border: 0;
+       background-color: white;
+       display: none;
+    }
+
+    &__btn span{
+        width: 28px;
+        height: 3px;
+        background-color: black;
+    }
+
+    &__btn span::after,
+    &__btn span::before{
+        content: "";
+        width: 20px;
+        height: 3px;
+        background-color: black;
+        position: absolute;
+    }
+
+    &__btn span::after{
+        content: "";
+        margin: 10px 0 0 -6px;
+    }
+
+    &__btn span::before{
+        content: "";
+        margin: -10px 0 0 -6px;
+    }
+
+    &__linck{
+        color: rgba(59, 59, 59, 1);
+        font-size: 15px;
+        font-weight: 400;
+        cursor: pointer;
+        text-decoration: none;
+        position: relative; 
+        font-family: "Montserrat Alternates", sans-serif;       
+        text-decoration: none;
+        background-image: linear-gradient(currentColor, currentColor);
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        background-size: 0% 2px;
+        transition: background-size .3s;
+        
+        &:hover{
+            font-weight: 600;
+            color: rgba(189, 112, 72, 1);
+            transition: 0.9s;
+            background-size: 100% 2px;
+        }
+    }
+}
+
+
+@media (max-width: 375px){
+    .menu{
+        &__btn{
+            display: flex;
+            cursor: pointer;
+
+        }
+        &__list{
+            display: none;
+        }
+        &__btn:hover  span::before,
+        &__btn:hover  span::after{
+            content: "";
+            width: 28px;
+            margin-left: -14px;
+            transition: all .2s ease-in;
+        }
+
+        &__btn-visited span{
+            transform: rotate(45deg);
+            transition: all .2s ease-in;
+        }
+        &__btn-visited{
+            z-index: 300;
+        }
+
+        &__btn-visited span::before{
+            content: "";
+            width: 28px;
+            margin-top: 0;
+            margin-left: -14px;
+            transform: rotate(-90deg);
+            transition: all .2s ease-in;
+        }
+        &__list-visited{
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 100;
+            background-color: white;
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            row-gap: 20px;
+        }
+        &__btn-visited span::after{
+            display: none;
+        }
+        
+    }
+}

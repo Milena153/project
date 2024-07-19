@@ -1,0 +1,25 @@
+.catalog{
+    padding-top: 75px;
+    &__title{
+        color: rgba(38, 38, 38, 1);
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 48.76px;
+        text-align: center;
+        margin-bottom: 37px;
+    }
+    &__text{
+        color: rgba(38, 38, 38, 0.7);
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24.38px;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+}
+@media (max-width:375px) {
+    .catalog{
+        padding-top: 52px;   
+    }
+    
+}

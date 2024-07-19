@@ -1,0 +1,27 @@
+.watch{
+    padding-top: 46px;
+    &__title{
+        font-weight: 700;
+        font-size: 30px;
+        color: rgba(38, 38, 38, 1);
+        line-height: rgba(38, 38, 38, 1);
+        margin-bottom: 28px;
+    }
+
+    &__span-btn::before{
+        content: '';
+        background: url('../img/icons/pdf.png')center/cover no-repeat;
+        width: 41px;
+        height: 41px;
+    }
+    &__span-btn{
+        color:rgba(38, 38, 38, 0.7);
+        font-size: 20px;
+        line-height: 18.29px;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        margin-left: 4px;
+    }
+}

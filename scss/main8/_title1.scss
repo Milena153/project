@@ -1,0 +1,47 @@
+.main8{
+    padding-top: 43px;
+    &__title{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24.38px;
+        color: rgba(40, 40, 40, 0.7);
+        margin-bottom: 21px;
+    }
+    &__title::after{
+        content: '';
+        background: url('../../img/icons/ant-design_close-circle-outlined.png')center/cover no-repeat;
+        width: 45px;
+        height: 45px;
+        margin-left: 6px;
+        cursor: pointer;
+        margin-right: 41px;
+    }
+}
+
+@media (max-width:375px) {
+    .main8{
+        padding-top: 20px;
+        &__title{
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 24.38px;
+            color: rgba(40, 40, 40, 0.7);
+            margin-bottom: 16px;
+        }
+        &__title::after{
+            content: '';
+            background: url('../../img/icons/ant-design_close-circle-outlined.png')center/cover no-repeat;
+            width: 45px;
+            height: 45px;
+            margin-left: 6px;
+            cursor: pointer;
+            margin-right: 1px;
+        }
+    }
+}

@@ -1,0 +1,248 @@
+.design{
+    background: url('../img/kitchen.png')center/cover no-repeat;
+    height: 680px;
+    position: relative;
+
+    &__basket{
+        background-color: rgba(38, 38, 38, 1);
+        width: 346px;
+        height: 119px;
+        border-radius: 100px 0 0 100px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding-left: 53px;
+        position: absolute;
+        top: 45px;
+        right: 0;
+       
+    }
+    &__basket-p{
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18.29px;
+        color: rgba(255, 255, 255, 1);
+    }
+    &__basket-span{
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 12.19px;
+        color: rgba(255, 255, 255, 0.7);
+        padding-left: 16px;
+    }
+    &__basket-img{
+        width: 61px;
+        height: 61px;
+        border-radius: 100%;
+        background-color: white;
+        display: grid;
+        place-content: center;
+        cursor: pointer;
+            &>img{
+                width: 21px;
+                height: 24px;   
+            }
+        }
+    &__title{
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
+        font-size: 40px;
+        font-weight:600;
+        line-height: 48.76px;
+        padding-top: 164px;
+        width: 846px;
+        margin: 0 auto;
+        margin-bottom: 42px;
+    }
+    &__btn{
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 18.29px;
+        color: rgba(255, 255, 255, 1);
+        background-color: rgba(189, 112, 72, 1);
+        width: 228px;
+        height: 74px;
+        border-radius: 100px;
+        display: block;
+        margin: 0 auto;
+        border: none;
+        margin-bottom: 107px;
+        cursor: pointer;
+    }
+    &__btn:hover{
+        color: rgba(255, 255, 255, 1);
+        background-color: rgb(108, 72, 54);
+        font-weight: 800;
+    }
+
+
+    &__white-block{
+        width: 1176px;
+        height: 204px;
+        border-radius: 50px;
+        background-color: rgb(255, 255, 255);
+        margin: 0 auto;
+        padding-top: 68px;
+        position: relative;
+        bottom: -100px;
+    }
+    &__white-list{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    &__white-img{
+        width: 44px;
+        height: 44px;
+    }
+    &__white-item{
+        display: flex;
+    }
+    &__white-span{
+       padding-left: 25px;
+    }
+    &__white-title{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24.38px;
+        color: rgba(38, 38, 38, 1);
+        margin-bottom: 6px;
+    }
+    &__white-text{
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18.29px;
+        color: rgba(38, 38, 38, 0.7);
+    }
+    &__white-kaspi{
+        margin-top: 9px;
+    }
+}
+
+@media (max-width:375px){
+    .design{
+        background: url('../img/kitchen.png')center/cover no-repeat;
+        height: 584px;
+        position: relative;
+        &__basket{
+            width: 100%;
+            height: 119px;
+            border-radius: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 0;
+            position: absolute;
+            padding: 0 30px;
+            left: auto;
+            right: auto;
+            background-color: transparent;
+        }
+        &__basket-p{
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 18.29px;
+            color: rgba(255, 255, 255, 1);
+            display: none;
+        }
+        &__basket-span{
+            font-weight: 500;
+            font-size: 10px;
+            line-height: 12.19px;
+            color: rgba(255, 255, 255, 0.7);
+            padding-left: 16px;
+            display: none;
+        }
+        &__basket-img{
+            width: 61px;
+            height: 61px;
+            border-radius: 100%;
+            background-color: white;
+            display: grid;
+            place-content: center;
+            cursor: pointer;
+                &>img{
+                    width: 21px;
+                    height: 24px;   
+                }
+            }
+        &__title{
+            text-align: center;
+            color: rgba(255, 255, 255, 1);
+            font-size: 25px;
+            font-weight:600;
+            line-height:30.48px;
+            padding-top: 169px;
+            width: 291px;
+            margin: 0 auto;
+            margin-bottom: 58px;
+        }
+        &__btn{
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 18.29px;
+            color: rgba(255, 255, 255, 1);
+            background-color: rgba(189, 112, 72, 1);
+            width: 228px;
+            height: 74px;
+            border-radius: 100px;
+            display: block;
+            margin: 0 auto;
+            border: none;
+            // margin-bottom: 86px;
+            cursor: pointer;
+        }
+        &__btn:hover{
+            color: rgba(255, 255, 255, 1);
+            background-color: rgb(108, 72, 54);
+            font-weight: 800;
+        }
+
+
+        &__white-block{
+            // width: 500px;
+            width: 285px;
+            height: 65vh;
+            border-radius: 50px;
+            background-color: rgb(255, 255, 255);
+            margin: 0 auto;
+            display: block;
+            padding-top: 43px;
+            position: relative;
+            padding-left: 24px;
+
+            // bottom: -100px;
+        }
+        &__white-list{
+            display: block;
+        }
+        &__white-img{
+            width: 44px;
+            height: 44px;
+        }
+        &__white-item{
+            display: flex;
+            margin-bottom: 78px;
+        }
+        &__white-span{
+        padding-left: 25px;
+        }
+        &__white-title{
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24.38px;
+            color: rgba(38, 38, 38, 1);
+            margin-bottom: 6px;
+        }
+        &__white-text{
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 18.29px;
+            color: rgba(38, 38, 38, 0.7);
+        }
+        &__white-kaspi{
+            margin-top: 9px;
+        }
+    }
+    
+}

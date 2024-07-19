@@ -1,0 +1,49 @@
+.see{
+    padding-top: 67px;
+    &__title{
+        color: rgba(38, 38, 38, 1);
+        font-size: 40px;
+        line-height: 48.76px;
+        font-weight: 700;
+        margin-bottom: 54px;
+    }
+    &__block{ 
+        display: flex;
+        align-items: center;
+       gap: 0px 48px;
+       margin-bottom: 91px;
+   }
+}
+@media (max-width:375px) {
+    .see{
+        padding-top: 59px;
+        &__title{
+            color: rgba(38, 38, 38, 1);
+            font-size: 30px;
+            line-height: 48.76px;
+            font-weight: 700;
+            margin-bottom: 54px;
+            width: 669px;
+        }
+        &__img{
+            width: 235px;
+            height: 176px;
+            margin: 0 auto;
+            display: block;
+        }
+        &__block-text{
+            margin-top: 25px;
+            line-height: 24.38px;
+            font-weight: 600;
+            color: rgba(53, 53, 53, 1);
+            font-size: 20px;
+            margin-left: 0;
+            margin-bottom: 35px;
+            text-align: center;
+        }
+        &__block{ 
+          display: block;
+           margin-bottom: 91px;
+       }
+    }
+}

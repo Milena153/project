@@ -1,0 +1,25 @@
+.tender{
+   background: url('../img/tender.png')center/cover no-repeat;
+   height: 82vh;
+    &__title{
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 36.57px;
+        color: rgba(255, 255, 255, 1);
+        padding-top: 533px;
+    }
+}
+@media (max-width:375px) {
+    .tender{
+        background: url('../img/tender.png')center/cover no-repeat;
+        height: 52vh;
+         &__title{
+             font-weight: 600;
+             font-size: 25px;
+             line-height: 36.57px;
+             color: rgb(255, 255, 255);
+             padding-top: 244px;
+             width: 333px;
+         }
+     }
+}

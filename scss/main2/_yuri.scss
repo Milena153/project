@@ -1,0 +1,106 @@
+.yuri{
+    padding-top: 97px;
+    &__inner{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    &__img{
+        width: 384px;
+        height: 462px;
+        margin-left: 66px;
+    }
+    &__title{
+        font-weight: 400;
+        color: rgba(27, 27, 27, 1);
+        line-height: 52.42px;
+        font-size: 43px;
+        margin-bottom: 20px;
+    }
+    &__span{
+        color: rgba(126, 126, 126, 1);
+        font-size: 20px;
+        font-weight: 400;
+        font-family: "Montserrat Alternates", sans-serif;
+        line-height: 24.38px;
+    }
+    &__about{
+        font-weight: 400;
+        margin-top:35px;
+        font-size: 20px;
+        line-height: 24.38px;
+        color: rgba(0, 0, 0, 1);
+        width: 662px;
+        height: 264px;
+    }
+    &__ul{
+        list-style-position: inside;
+    }
+    &__li{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__li::marker{
+        background-color:pink;
+        margin: 0;
+    }
+}
+@media (max-width:375px) {
+    .yuri{
+        padding-top: 78px;
+        &__inner{
+            display: block;
+        }
+        &__img{
+            width: 309px;
+            height: 372px;
+            margin-left: 0;
+        }
+        &__title{
+            font-weight: 400;
+            color: rgba(27, 27, 27, 1);
+            line-height: 52.42px;
+            font-size: 25px;
+            margin-bottom: 20px;
+        }
+        &__text{
+            color: rgba(0, 0, 0, 1);
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24.38px;
+            width: 323px;
+        }
+        &__span{
+            color: rgba(126, 126, 126, 1);
+            font-size: 20px;
+            font-weight: 400;
+            font-family: "Montserrat Alternates", sans-serif;
+            line-height: 24.38px;
+        }
+        &__list{
+            width: 313px;
+        }
+        &__about{
+            font-weight: 400;
+            margin-top:35px;
+            font-size: 20px;
+            line-height: 24.38px;
+            color: rgba(0, 0, 0, 1);
+            width: 662px;
+            height: 264px;
+        }
+        &__ul{
+            list-style-position: inside;
+        }
+        &__li{
+            display: flex;
+            justify-content: space-between;
+        }
+    
+        &__li::marker{
+            background-color:pink;
+            margin: 0;
+        }
+    }
+}

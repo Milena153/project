@@ -1,0 +1,73 @@
+.like{
+    margin-top: 140px;
+    background: url('../img/door.png')center/cover no-repeat;
+    height: 60vh;
+    &__title{
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 36.57px;
+        color: rgba(255, 255, 255, 1);
+        padding-top: 118px;
+        margin-bottom: 27px;
+        width: 447px;
+    }
+    &__text{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24.38px;
+        margin-bottom: 33px;
+        color: rgba(255, 255, 255, 0.7);
+        width: 563px;
+    }
+    &__btn{
+        width: 285px;
+        height: 72px;
+        background-color: rgba(189, 112, 72, 1);
+        color: rgba(255, 255, 255, 1);
+        font-size: 15px;
+        line-height: 18.29px;
+        font-weight:600;
+        border-radius: 100px;
+        cursor: pointer;
+        border: none;
+        font-family: "Montserrat Alternates", sans-serif;
+    }
+}
+
+@media (max-width:375px){
+    .like{
+        margin-top: 112px;
+        background: url('../img/door.png')center/cover no-repeat;
+        height: 60vh;
+        &__title{
+            font-weight: 600;
+            font-size: 25px;
+            line-height: 36.57px;
+            color: rgba(255, 255, 255, 1);
+            padding-top: 43px;
+            margin-bottom: 17px;
+            width: 327px;
+        }
+        &__text{
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 24.38px;
+            margin-bottom: 35px;
+            color: rgba(255, 255, 255, 0.7);
+            width: 263px;
+        }
+        &__btn{
+            width: 285px;
+            height: 72px;
+            background-color: rgba(189, 112, 72, 1);
+            color: rgba(255, 255, 255, 1);
+            font-size: 15px;
+            line-height: 18.29px;
+            font-weight:600;
+            border-radius: 100px;
+            cursor: pointer;
+            border: none;
+            font-family: "Montserrat Alternates", sans-serif;
+        }
+    }
+}

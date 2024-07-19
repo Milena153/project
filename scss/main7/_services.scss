@@ -1,0 +1,16 @@
+.services{
+    padding-top: 66px;
+    &__title{
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36.57px;
+        color: rgba(38, 38, 38, 1);
+        margin-bottom: 19px;
+    }
+    &__text{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24.38px;
+        color: rgba(38, 38, 38, 0.7);
+    }
+}
